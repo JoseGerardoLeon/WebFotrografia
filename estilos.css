@@ -1,0 +1,533 @@
+body{
+font-family: 'Dancing Script', cursive;
+color: white;
+background-color: #02010a;
+}
+@media screen and (min-width:900px){
+#contenedor{
+max-width: 900px;
+}
+@-webkit-keyframes header{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%
+  }
+
+
+
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  display:flex; flex-direction:row; justify-content:space-around;
+  align-items:center;
+  animation: header 1s;
+
+
+  top: 10px;
+}
+h1{
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px #02010a;
+}
+nav{
+  width: 30%;
+  top: 60px;
+}
+a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+p{
+  font-size: 20px;
+}
+img{
+  box-shadow: 2px 2px #02010a;
+
+}
+img[src~="imagenes/paisaje1.jpg"]{
+  width: 90%;
+  margin: 20px;
+}
+#imagen1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #82c3a6;
+}
+img[src~="imagenes/paisajenoche.jpg"]{
+  width: 95%;
+}
+img[src~="imagenes/paisajenoche.jpg"]:hover{
+  transform: rotate(10deg);
+  transition: 1s;
+}
+
+img[src~="imagenes/rostro.jpg"]{
+  width: 90%;
+}
+img[src~="imagenes/rostro.jpg"]:hover{
+  transform: translate(20px,-5px);
+  transition: 1s;
+}
+
+.imagenes2 {
+  background-color: #d5c75f ;
+  border-radius: 1px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  }
+  footer{
+    margin:auto;
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    color: black;
+  }
+  .footer{
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 90%;
+  }
+  .Contacto{
+    margin-left: 30px;
+    flex-grow: 1;
+  }
+
+  .Contacto1{
+    font-size: 30px;
+  }
+  .Termino{
+    margin-left: 80px;
+    flex-grow: 1;
+
+  }
+  .Termino1{
+    font-size: 30px;
+  }
+  .Redes{
+    margin-left: 80px;
+    flex-grow: 1;
+  }
+  .Redes1{
+    font-size: 30px;
+  }
+  img[src~="imagenes/logoface.png"]{
+    width: 7%;
+    box-shadow: none;
+  }
+  img[src~="imagenes/instalogo.png"]{
+    width: 7%;
+    box-shadow: none;
+  }
+  img[src~="imagenes/logowhat.png"]{
+    width: 7%;
+    box-shadow: none;
+  }
+  img[src~="../imagenes/logoface.png"]{
+    width: 7%;
+    box-shadow: none;
+  }
+  img[src~="../imagenes/instalogo.png"]{
+    width: 7%;
+    box-shadow: none;
+  }
+  img[src~="../imagenes/logowhat.png"]{
+    width: 7%;
+    box-shadow: none;
+  }
+  .facebook{
+    color: black;
+  }
+  .instagram{
+    color: black;
+  }
+  .whatsapp{
+    color: black;
+  }
+  .Derechos{
+    margin: 10px;
+    flex-grow: 1;
+  }
+  .Derechos1{
+    font-size: 30px;
+  }
+  #Galeriap{
+    background-color: #d5c75f;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+  }
+  img[src~="../imagenes/Atardecer.jpg"]{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+
+  }
+  img[src~="../imagenes/Bosque.jpg"]{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+
+  }
+  img[src~="../imagenes/Lago.jpg"]{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  img[src~="../imagenes/Montanas.jpg"]{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  img[src~="../imagenes/Rayo.jpg"]{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  img[src~="../imagenes/Nature.jpg" ]{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  #Galeriap img{
+    width: 100%;
+  }
+  .Gal1{
+    margin: 10px;
+  }
+  .Gal2{
+    margin: 10px;
+  }
+  .Gal3{
+    margin: 10px;
+  }
+  img[src~="../imagenes/Atardecer.jpg"]{
+    filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  }
+  img[src~="../imagenes/Bosque.jpg"]{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  }
+  img[src~="../imagenes/Lago.jpg"]{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  }
+  img[src~="../imagenes/Nature.jpg"]{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  }
+  img[src~="../imagenes/Rayo.jpg"]{
+    filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+  -moz-filter: sepia(90%);
+  -o-filter: sepia(90%);
+  -ms-filter: sepia(90%);
+  }
+  #Galeriar{
+    background-color: #d5c75f;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+  }
+  img[src~="../imagenes/Rostro1.jpg"]{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  img[src~="../imagenesRostro2.jpg"]{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+
+  }
+  img[src~="../imagenes/Rostro3.jpg"]{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  img[src~="../imagenes/Rostro4.jpg"]{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  img[src~="../imagenes/Rostro5.jpg"]{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  img[src~="../imagenes/Rostro6.jpg" ]{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  #Galeriar img{
+    width: 100%;
+    margin-bottom: 10px;
+
+  }
+
+  img[src~="../imagenes/Rostro1.jpg"]{
+    filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  }
+  img[src~="../imagenes/Rostro2.jpg"]{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  }
+  img[src~="../imagenes/Rostro4.jpg"]{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  }
+  img[src~="../imagenes/Rostro6.jpg"]{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  }
+  img[src~="../imagenes/Rostro3.jpg"]{
+    filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+  -moz-filter: sepia(90%);
+  -o-filter: sepia(90%);
+  -ms-filter: sepia(90%);
+  }
+}
+@media screen and (max-width:899px){
+#contenido{
+width: 100%;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#imagen1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #82c3a6;
+  width: 100%;
+}
+img[src~="imagenes/paisaje1.jpg"]{
+  width: 90%;
+}
+.imagenes2 {
+  background-color: #d5c75f ;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  }
+  img[src~="imagenes/paisajenoche.jpg"]{
+    width: 95%;
+
+  }
+  img[src~="imagenes/paisajenoche.jpg"]:hover{
+    transform: rotate(10deg);
+    transition: 1s;
+  }
+  img[src~="imagenes/rostro.jpg"]{
+    width: 90%;
+  }
+  img[src~="imagenes/rostro.jpg"]:hover{
+    transform: translate(20px,-5px);
+    transition: 1s;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+  }
+  h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px #02010a;
+  }
+  nav{
+    width: 30%;
+    top: 60px;
+  }
+  a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  p{
+    font-size: 20px;
+  }
+  img{
+    box-shadow: 2px 2px #02010a;
+  }
+  img[src~="imagenes/paisaje1.jpg"]{
+    width: 90%;
+    margin: 20px;
+  }
+  #imagen1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #82c3a6;
+  }
+  img[src~="imagenes/paisajenoche.jpg"]{
+    width: 95%;
+  }
+  img[src~="imagenes/rostro.jpg"]{
+    width: 90%;
+  }
+
+  .imagenes2 {
+    background-color: #d5c75f ;
+    border-radius: 1px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    }
+    footer{
+      margin:auto;
+      background-color: #C6d5c5;
+      border-radius: 0px 0px 10px 10px;
+      width: 100%;
+      color: black;
+    }
+    .footer{
+      display: flex;
+      box-sizing: border-box;
+      padding: 20px;
+      width: 90%;
+    }
+    .Contacto{
+      margin-left: 10px;
+      flex-grow: 1;
+    }
+
+    .Contacto1{
+      font-size: 30px;
+    }
+    .Termino{
+      margin-left: 10px;
+      flex-grow: 1;
+
+    }
+    .Termino1{
+      font-size: 30px;
+    }
+    .Redes{
+      margin-left: 10px;
+      flex-grow: 1;
+    }
+    .Redes1{
+      font-size: 30px;
+    }
+    img[src~="imagenes/logoface.png"]{
+      width: 4%;
+      box-shadow: none;
+    }
+    img[src~="imagenes/instalogo.png"]{
+      width: 4%;
+      box-shadow: none;
+    }
+    img[src~="imagenes/logowhat.png"]{
+      width: 4%;
+      box-shadow: none;
+    }
+    img[src~="../imagenes/logoface.png"]{
+      width: 4%;
+      box-shadow: none;
+    }
+    img[src~="../imagenes/instalogo.png"]{
+      width: 4%;
+      box-shadow: none;
+    }
+    img[src~="../imagenes/logowhat.png"]{
+      width: 4%;
+      box-shadow: none;
+    }
+    .facebook{
+      color: black;
+    }
+    .instagram{
+      color: black;
+    }
+    .whatsapp{
+      color: black;
+    }
+    .Derechos{
+      margin: 10px;
+      flex-grow: 1;
+    }
+    .Derechos1{
+      font-size: 30px;
+    }
+    #Galeriap{
+      background-color: #d5c75f;
+      border-radius: 1px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    #Galeriap img{
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    #Galeriar{
+      background-color: #d5c75f;
+      border-radius: 1px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    #Galeriar img{
+      width: 80%;
+      margin-bottom: 20px;
+    }
+
+}
+
+
+}
